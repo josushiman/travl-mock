@@ -10,7 +10,7 @@
     "post": {
       "belongsTo": "Post"
     }
-  }
+  },
   "ExtAPIStat": {
     "name": { "string": {} },
     "status": { "string": ["STARTED", "IN PROGRESS", "COMPLETED", "ERROR", "CANCELLED"]},
