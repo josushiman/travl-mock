@@ -11,7 +11,7 @@
       "belongsTo": "Post"
     }
   },
-  "ExtAPIStat": {
+  "Extapistat": {
     "name": { "string": {} },
     "status": { "string": [
       "STARTED",
