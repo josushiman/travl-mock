@@ -13,7 +13,13 @@
   },
   "ExtAPIStat": {
     "name": { "string": {} },
-    "status": { "string": ["STARTED", "IN PROGRESS", "COMPLETED", "ERROR", "CANCELLED"]},
+    "status": { "string": [
+      "STARTED",
+      "IN PROGRESS",
+      "COMPLETED",
+      "ERROR",
+      "CANCELLED"
+    ]},
     "item_count": { "int": { "min": 0, "max": 400 } },
     "start_time": { "dateTime": {
       "min": "2010-01-01T00:00:00Z",
@@ -23,6 +29,6 @@
       "min": "2010-01-01T00:00:00Z",
       "max": "2020-12-31T23:59:59Z"
     }},
-    "elapsed_time": { "int": { "min": 0, "max": 400 } },
+    "elapsed_time": { "int": { "min": 0, "max": 400 } }
   }
 }
