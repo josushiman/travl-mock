@@ -22,15 +22,15 @@
       "geo": {
         "lat": { "int": { "min": -100, "max": 0 } },
         "lng": { "int": { "min": 0, "max": 100 } }
-        }
-      },
+      }
+    },
     "phone": { "int": { "min": 0, "max": 400000 } },
     "website": { "regexp": "[a-z]{5}\\.[a-z]{2,3}" },
     "company": {
       "name": { "regexp": "[A-Z][a-z]{5,10}" },
       "catchPhrase": { "regexp": "[A-Z][a-z]{5,10}" },
-      "bs": { "regexp": "[A-Z][a-z]{5,10}" },
-      },
+      "bs": { "regexp": "[A-Z][a-z]{5,10}" }
+    },
     "post": {
       "belongsTo": "Post"
     }
