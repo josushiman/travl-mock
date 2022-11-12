@@ -1,13 +1,6 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "body": { "string": {} },
-    "userId": {
-      "hasMany": "Comment"
-    }
-  },
   "Countries": {
-    "id": { "int": { "min": 0, "max": 400000 } },
+    "id": { "regexp": "^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$" },
     "name": { "string": {} },
     "region": { "string": {} },
   },
